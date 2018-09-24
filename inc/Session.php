@@ -2,6 +2,9 @@
 
 class Session
 {
+    /**
+     * @var stocke l'instance actuelle
+     */
     private static $_instance;
 
     public function __construct()

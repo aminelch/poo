@@ -2,9 +2,11 @@
 require "inc/Autoloader.php";
 
 //J'initialise l'autoloader 
-Autoloader::init();
+\App\Autoloader::init();
 
-
+$a = \App\Text\Randomize::randomString(20,true);
+var_dump($a);
+die();
 // $Sara=new Person("buzenyaki", "Sara");
 
 

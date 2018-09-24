@@ -1,5 +1,6 @@
 <?php
 
+namespace \App\Text;
 /**
  * Randomize for generating a random strings and arrays  
  *
